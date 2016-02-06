@@ -1,0 +1,60 @@
+
+.sb-custom {
+  cursor: pointer;
+  display: inline;
+  position: relative;
+  width:  100%;
+}
+.sparkbox-custom {
+  display: none;
+}
+.no-js .sparkbox-custom {
+  display: block;
+}
+
+.sb-select:focus {
+
+}
+.sb-select {
+  background: #fff url('../images/arrow-select.png') no-repeat 100% 50% !important;
+  border: none;
+  color: #444;
+  left: 0;
+  padding: 5px 30px 5px 5px;
+  position: relative;
+  text-decoration: none;
+  top: 0;
+  width: 96%;
+  z-index: 1;
+  border:1px solid #000 !important;
+  border-radius:5px;
+  cursor:pointer;
+}
+.sb-dropdown {
+  background: #05295c;
+  display: none;
+  font-size: .9em;
+  left: 5px;
+  list-style: none;
+  margin: 0;
+  padding: 2px;
+  position: absolute;
+  top: 1.35em;
+  width: 89.8% !important;
+  z-index: 2;
+  /*top:35px !important;*/
+  margin:30px 0 0 0px;
+}
+.sb-dropdown a {
+  color: #6F6F6F;
+  font-size:14px;
+  display: block;
+  padding:5px;
+  text-decoration: none;
+}
+.sb-dropdown a{ background:#fff; }
+.sb-dropdown a:hover,
+.sb-dropdown .selected {
+  background: #b0b0b0;
+
+}

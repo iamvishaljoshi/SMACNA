@@ -1,0 +1,95 @@
+
+.selectMedium select {
+    width: 801px;
+}
+.select select {
+    -moz-appearance: none;
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    color: #575757;
+    cursor: pointer;
+    height: 25px;
+    outline: medium none !important;
+    padding: 5px;
+    text-shadow: 0 1px 0 #FFFFFF;
+    width: 161px;
+    z-index: 1;
+    background: #b0b0b0;
+}
+.select {
+  width: 780px!important;
+  height: 30px;
+  overflow: hidden;
+  box-shadow: 0 1px 2px #dedede, 0 0px 0 #F7F7F7 inset;
+  right:10px;
+  background-image: url('../images/icon-arrow.png');
+  /* fallback */
+
+  background-image: url('../images/icon-arrow.png'), -webkit-gradient(linear, left top, left bottom, from(#cecece), to(#f6f6f6));
+  /* Saf4+, Chrome */
+
+  background-image: url('../images/icon-arrow.png'), -webkit-linear-gradient(bottom, rgba(190, 190, 190, 0.1), rgba(80, 80, 80, 0.1));
+  /* Chrome 10+, Saf5.1+ */
+
+  background-image:transparent url(../images/icon-arrow.png) no-repeat 50 50!important;
+  /* FF3.6+ */
+
+  background-image: url('../images/icon-arrow.png'), -ms-linear-gradient(top, #cecece, #f6f6f6);
+  /* IE10 */
+
+  background-image: url('../images/icon-arrow.png'), -o-linear-gradient(top, #cecece, #f6f6f6);
+  /* Opera 11.10+ */
+
+  background-image: url('../images/icon-arrow.png'), linear-gradient(top, #cecece, #f6f6f6);
+  background-repeat: no-repeat, repeat;
+  background-position: right center, center center;
+
+
+}
+.select select {
+  cursor: pointer;
+  color: #575757;
+  text-shadow: 0 1px 0 #FFFFFF;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: none;
+  width: 161px;
+  padding: 5px;
+  outline: none!important;
+  border: 0;
+  z-index: 1;
+  height: 30px;
+  font-size: 16px;
+}
+.select select:focus {
+  text-shadow: 0;
+  background: rgba(255, 255, 255, 0.3);
+
+}
+.select select:active {
+  background: rgba(255, 255, 255, 0.5);
+
+
+}
+.selectMedium {
+  width: 100%!important;
+}
+.selectMedium select {
+  width: 103%;
+}
+.select {
+
+  overflow:hidden;
+  outline: none;
+  border-radius: 5px;
+  border:1px solid #000 !important;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  background-color: #FFFFFF;
+
+  margin : 0 0 10px;
+  left: 0px;
+
+
+}
